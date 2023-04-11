@@ -22,7 +22,7 @@ The Project-Minimalist osu! skin is highly customizable. You can edit the skin's
 
 ## Open Source
 
-The Project-Minimalist osu! skin will be open sourced with .fig files available to copy when finished. You are free to modify and distribute the skin as long as you include the original license and copyright notice.
+The Project-Minimalist osu! skin will be open sourced with .fig files available to copy when finished. You are free to modify and distribute the skin without any worries.
 
 ## Contributions
 
@@ -30,7 +30,7 @@ Contributions to the Project-Minimalist osu! skin are welcome. If you would like
 
 ## License
 
-The Project-Minimalist osu! skin is licensed under the MIT License. You are free to use, modify, and distribute the skin, as long as you include the original license and copyright notice. 
+The Project-Minimalist osu! skin is licensed under the Unlicensed License. You are free to use, modify, and distribute the skin, no credit required. 
 
 ## Credits
 
