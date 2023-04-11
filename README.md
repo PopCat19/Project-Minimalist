@@ -10,7 +10,7 @@ Project-Minimalist is a minimalist osu! skin designed in Figma with a simple and
 
 ## Installation
 
-1. Download the latest release from the repository.
+1. Download the latest release from the [releases page](https://github.com/PopCat19/Project-Minimalist/releases).
 2. Open the .osk file with your preferred file explorer.
 4. Launch osu! and go to the Options menu.
 5. In the Options menu, go to the Skin tab.
