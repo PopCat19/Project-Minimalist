@@ -30,7 +30,7 @@ Contributions to the Project-Minimalist osu! skin are welcome. If you would like
 
 ## License
 
-The Project-Minimalist osu! skin is licensed under the Unlicensed License. You are free to use, modify, and distribute the skin, no credit required. 
+The Project-Minimalist osu! skin is licensed under the Unlicense License. You are free to use, modify, and distribute the skin, no credit required. 
 
 ## Credits
 
