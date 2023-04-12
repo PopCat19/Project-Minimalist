@@ -8,7 +8,7 @@ Project Minimalist is a minimalist osu! skin designed in Figma with a simple and
 
 - Clean and simple design.
 - Minimalist approach to gameplay elements.
-- Open-sourced and includes original figma files.
+- Open-sourced and includes original figma files. (on alpha release)
 
 ## Installation
 
