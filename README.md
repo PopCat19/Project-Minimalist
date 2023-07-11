@@ -20,7 +20,7 @@ You can support Project Minimalist by just trying it out and giving me advice an
 #### Where are the project files?
 The project files are still being prepared for the upcoming major release. If you really want one right now, you can request one through my Discord!
 
-#### How do I use the skin?
+## Installation
 1. Download the latest release from the [releases page](https://github.com/PopCat19/Project-Minimalist/releases).
 2. Open the .osk file from your downloads folder.
 4. In osu!, go to the Options menu.
