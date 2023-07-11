@@ -2,13 +2,13 @@
 
 Project Minimalist is a minimalist osu! skin designed in Figma with a simple and clean layout. The skin will frequently be released in the repository with more details.
 
-![Banner](https://i.imgur.com/dAwGm3a.png)
+![Banner](https://i.imgur.com/Zjv2fbA.png)
 
 ## Features
 
 - Clean and simple design.
 - Minimalist approach to gameplay elements.
-- Open-sourced and includes original figma files. (on alpha release)
+- Open-sourced and includes original Figma files. (on alpha release)
 
 ## Installation
 
@@ -20,21 +20,21 @@ Project Minimalist is a minimalist osu! skin designed in Figma with a simple and
 
 ## Customization
 
-The Project-Minimalist osu! skin is highly customizable. You can edit the skin's .fig and .ini files to change the colors, sizes, and fonts of various elements.
+The Project-Minimalist osu! skin is highly customizable. You can edit the skin's .fig and .ini files to change various elements' colors, sizes, and fonts.
 
 ## Open Source
 
-The Project-Minimalist osu! skin will be open sourced with .fig files available to copy when finished. You are free to modify and distribute the skin without any worries.
+The Project-Minimalist osu! skin will be open-sourced with .fig files available to copy when finished. You are free to modify and distribute the skin without any worries.
 
 ## Contributions
 
-Contributions to the Project-Minimalist osu! skin are welcome. If you would like to contribute, please submit a pull request with your changes.
+Contributions to the Project-Minimalist osu! skin is welcome. If you want to contribute, please submit a pull request with your changes.
 
 ## License
 
-The Project-Minimalist osu! skin is licensed under the Unlicense License. You are free to use, modify, and distribute the skin, no credit required. 
+The Project-Minimalist osu! skin is licensed under the Unlicense License. You are free to use, modify, and distribute the skin, no credit is required.
 
 ## Credits
 
 - Design and development by PopCat19
-- osu! is a rhythm game developed by Dean "peppy" Herbert.
+- osu! is a rhythm game that Dean "peppy" Herbert developed.
