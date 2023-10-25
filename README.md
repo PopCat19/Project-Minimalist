@@ -3,22 +3,22 @@
 ## About
 
 #### What is Project Minimalist?
-Project Minimalist is a minimalist osu! skin designed in Figma. It is also my first skin, originally created to tailor my needs in osu! I'll be sharing my skin and project files here for others to modify and distribute. I really hope you like my work so far!
+Project Minimalist is a minimalist osu! skin designed in Figma. It is also my first skin, originally created after being inspired by my friend to tailor my needs in osu! ― I'll be releasing my skin and project files here for others to explore and enjoy. I really hope you like the work so far, as I'm still learning more about Figma.
 
 #### What stuff is included in Project Minimalist?
-Project Minimalist includes skin releases, project files, and other things that I might make. Project files are gonna be released as .fig project files since I use Figma to create the skin elements. I dunno how to use Adobe Photoshop, so I'm really sorry if you're looking for .psd project files!
+Project Minimalist includes skin releases, project files, and other similar things that I may make. There are currently NM, HD, and DT variants, aswell as instafade patches for NM and DT. Project files are to be released as `.fig` because I use Figma to create the skin elements. I'm not experienced on working with Photoshop, so I'm sorry if you're looking for `.psd` or other project file type.
 
 #### Can I use the project files and share them with my friends?
-Of course! Though credits would be very much appreciated.
+Of course! Though credits would be very much appreciated, but I won't force you.
 
 #### I don't like a few things in the skin, how can I tell you things to improve?
-You can ask me anything in Discord (popcat19) or submit a pull request with changes you want and I'll try my best to implement them!
+You can ask me anything in Discord dms (popcat19) or you may also submit an issue with changes you want and I'll try to implement them.
 
 #### How can I support this project?
-You can support Project Minimalist by just trying it out and giving me advice and feedback! It's my hobby after all.
+You can support Project Minimalist by just trying it out and giving me advice and feedback! After all, it's a fun project to work on.
 
 #### Where are the project files?
-The project files are still being prepared for the upcoming major release. If you really want one right now, you can request one through my Discord!
+The project files are slowly being released with couple of modifications to improve convenience. Check the [releases page](https://github.com/PopCat19/Project-Minimalist/releases) to find a current project file. If you really want the latest one right now, you may request one through discord dm.
 
 ## Installation
 1. Download the latest release from the [releases page](https://github.com/PopCat19/Project-Minimalist/releases).
@@ -26,17 +26,20 @@ The project files are still being prepared for the upcoming major release. If yo
 4. In osu!, go to the Options menu.
 5. Select any "Project Minimalist" skin from the skin list.
 
+## Project Files
+As for the project files, visit the [wiki](https://github.com/PopCat19/Project-Minimalist/wiki) to learn more.
+
 ## Contributors
 - [Multy](https://osu.ppy.sh/users/10065690)
-- [Electrodues (aka Ehxril, Galaxiexx)](https://osu.ppy.sh/users/25363551)
+- [Electrodues](https://osu.ppy.sh/users/25363551)
 - [Nath54an](https://osu.ppy.sh/users/17786948)
-- [-Levy The Boss- (aka Levy-Kun, Levy_The_Hero)](https://osu.ppy.sh/users/3098854)
+- [-Levy The Boss-](https://osu.ppy.sh/users/3098854)
 - [Jet_Mouse](https://osu.ppy.sh/users/25831266)
-- [Dirtydtplayer (aka No Face)](https://osu.ppy.sh/users/16719285)
+- [Dirtydtplayer](https://osu.ppy.sh/users/16719285)
 - [itsjimmy15](https://osu.ppy.sh/users/22761238)
 - [CloudKeyz](https://osu.ppy.sh/users/15194624)
 
-**Big thanks to them for providing helpful advice and feedback!**
+**Big thanks to them for providing helpful advice and feedback! Thank you for trying out this skin, I hope you enjoyed this project!**
 
 ## Credits and Sources
 - Design and development by PopCat19 and contributors
