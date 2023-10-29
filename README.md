@@ -1,4 +1,4 @@
-![Banner](https://i.imgur.com/6tsJakY.png)
+![Banner](https://i.imgur.com/UrmdIFF.png)
 
 ## About
 
