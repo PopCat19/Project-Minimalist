@@ -27,7 +27,7 @@ The project files are slowly being released with couple of modifications to impr
 ## Project Files
 As for the project files, visit the [wiki](https://github.com/PopCat19/Project-Minimalist/wiki) to learn more.
 
-## Project Wiki contributors
+## Project Wiki Contributors
 - [itsjimmy15](https://osu.ppy.sh/users/22761238)
 
 ## Skin Feedback Contributors
