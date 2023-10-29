@@ -27,7 +27,7 @@ The project files are slowly being released with couple of modifications to impr
 ## Project Files
 As for the project files, visit the [wiki](https://github.com/PopCat19/Project-Minimalist/wiki) to learn more.
 
-## Project Wiki contributiors
+## Project Wiki contributors
 - [itsjimmy15](https://osu.ppy.sh/users/22761238)
 
 ## Skin Feedback Contributors
@@ -40,7 +40,7 @@ As for the project files, visit the [wiki](https://github.com/PopCat19/Project-M
 - [itsjimmy15](https://osu.ppy.sh/users/22761238)
 - [CloudKeyz](https://osu.ppy.sh/users/15194624)
 
-**Big thanks to them for providing helpful advice and feedback! Thank you for trying out this skin, I hope you enjoyed this project!**
+**Big thanks for providing helpful advice and feedback! Thank you for checking out this skin, I hope you enjoyed this project!**
 
 ## Credits and Sources
 - Design and development by PopCat19 and contributors
