@@ -19,12 +19,12 @@ You can support Project Minimalist by just trying it out and giving me advice an
 The project files are slowly being released with couple of modifications to improve convenience. Check the [releases page](https://github.com/PopCat19/Project-Minimalist/releases) to find a current project file. If you really want the latest one right now, you may request one through discord dm.
 
 #### What clients support this skin?
--[x] osu! stable (full)
--[x] osu! lazer (gameplay only)
--[x] McOsu (gameplay only)
--[x] osu!droid (partial)
--[x] opsu (gameplay only)
--[ ] webosu.online (planned)
+- [x] osu! stable (full)
+- [x] osu! lazer (gameplay only)
+- [x] McOsu (gameplay only)
+- [x] osu!droid (partial)
+- [x] opsu (gameplay only)
+- [ ] webosu.online (planned)
 
 ## Installation
 1. Download the latest release from the [releases page](https://github.com/PopCat19/Project-Minimalist/releases).
