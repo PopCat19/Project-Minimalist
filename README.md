@@ -23,8 +23,7 @@ The project files are slowly being released with couple of modifications to impr
 - [x] osu! lazer (gameplay only)
 - [x] McOsu (gameplay only)
 - [x] osu!droid (partial)
-- [x] opsu (gameplay only)
-- [ ] webosu.online (planned)
+- [x] opsu (partial)
 
 ## Installation
 1. Download the latest release from the [releases page](https://github.com/PopCat19/Project-Minimalist/releases).
