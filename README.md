@@ -20,10 +20,10 @@ The project files are slowly being released with couple of modifications to impr
 
 #### What clients support this skin?
 - [x] osu! stable (full)
-- [x] osu! lazer (gameplay only)
-- [x] McOsu (gameplay only)
+- [x] osu! lazer (partial)
+- [x] McOsu (partial)
 - [x] osu!droid (partial)
-- [x] opsu (partial)
+- [x] opsu! (partial)
 
 ## Installation
 1. Download the latest release from the [releases page](https://github.com/PopCat19/Project-Minimalist/releases).
