@@ -1,4 +1,4 @@
-![Banner](https://i.imgur.com/a/3EXNIIv.png)
+![Banner](https://i.imgur.com/eLZcVyd.png)
 
 #### What is Project Minimalist?
 Project Minimalist is a minimalist osu! skin designed in Figma. It is also my first skin, originally created after being inspired by my friend to tailor my needs in osu! ― I'll be releasing my skin and project files here for others to explore and enjoy. I really hope you like the work so far, as I'm still learning more about Figma.
