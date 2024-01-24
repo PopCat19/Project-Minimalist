@@ -1,22 +1,22 @@
 ![Banner](https://i.imgur.com/eLZcVyd.png)
 
 #### What is Project Minimalist?
-Project Minimalist is a minimalist osu! skin designed in Figma. It is also my first skin, originally created after being inspired by my friend to tailor my needs in osu! ― I'll be releasing my skin and project files here for others to explore and enjoy. I really hope you like the work so far, as I'm still learning more about Figma.
+Project Minimalist is a minimalist focused osu! skin designed in Figma, a cloud-based web designing tool. It's also my first time designing a custom skin, originally made after being inspired by my friend's works and to tailor my personal needs in osu! ― I'll be releasing the skin and project files here for others to explore and enjoy. I really hope you enjoy the work as much as I did in learning and designing. I'm still learning more about Figma and osu!, so check back occasionally for new releases!
 
-#### What stuff is included in Project Minimalist?
-Project Minimalist includes skin releases, project files, and other similar things that I may make. There are currently NM, HD, and DT variants, aswell as instafade patches for NM and DT. Project files are to be released as `.fig` because I use Figma to create the skin elements. I'm not experienced on working with Photoshop, so I'm sorry if you're looking for `.psd` or other project file type.
+#### What stuff are included in Project Minimalist?
+Project Minimalist includes skin releases, project files, and other similar things that I may create later. There are currently NM, HD, and DT variants, aswell as instafade patches for NM and DT. The project files are also to be released as `.fig` filetype. Use Figma to import the project files to inspect and edit.
 
-#### Can I use the project files and share them with my friends?
-Of course! Though credits would be very much appreciated, but I won't force you.
+#### Can I modify and share this others?
+Of course! Credits are optional but it would be very much appreciated.
 
-#### I don't like a few things in the skin, how can I tell you things to improve?
-You can ask me anything in Discord dms (popcat19) or you may also submit an issue with changes you want and I'll try to implement them.
+#### How do I share some feedback?
+You can ask me anything in Discord: `popcat19`. You may also submit an issue with changes you want and I'll try to implement them.
 
 #### How can I support this project?
 You can support Project Minimalist by just trying it out and giving me advice and feedback! After all, it's a fun project to work on.
 
 #### Where are the project files?
-The project files are slowly being released with couple of modifications to improve convenience. Check the [releases page](https://github.com/PopCat19/Project-Minimalist/releases) to find a current project file. If you really want the latest one right now, you may request one through discord dm.
+The project files are slowly being released with couple of modifications to improve convenience. Check the [releases page](https://github.com/PopCat19/Project-Minimalist/releases) to find the latest project file. If you really want the latest one right now, you may request one through discord.
 
 #### What clients support this skin?
 - [x] osu! stable (full)
@@ -27,9 +27,12 @@ The project files are slowly being released with couple of modifications to impr
 
 ## Installation
 1. Download the latest release from the [releases page](https://github.com/PopCat19/Project-Minimalist/releases).
-2. Open the .osk file from your downloads folder.
-4. In osu!, go to the Options menu.
-5. Select any "Project Minimalist" skin from the skin list.
+2. Open the .osk file from your downloads folder.(osu! should open and load the skin automatically)
+
+## Change local skins
+1. In osu!, go to the Options menu. (keybind: `ctrl` + `o`)
+2. Scroll down to the paint brush icon, then click on the dropdown to view all local skins.
+3. Select any skin from the dropdown to load them.
 
 ## Project Files
 As for the project files, visit the [wiki](https://github.com/PopCat19/Project-Minimalist/wiki) to learn more.
