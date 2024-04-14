@@ -1,51 +1,65 @@
-name: Figma request
-description: Issues or feature ideas related to Figma project files.
-title: "[Figma]: " # You can set a default title prefix here
-labels: ["Figma Request"]
+name: Figma Design Feedback
+description: Submit feedback or feature ideas for Project Minimalist's Figma design files.
+title: "[Figma Feedback]: " # Add a brief title after the colon
+labels: ["figma: feedback", "status: review pending"]
 assignees:
   - PopCat19
+
 body:
   - type: markdown
     attributes:
-      value: "Is your request related to a problem? Please describe."
+      value: "## Figma Design Feedback\nPlease provide a detailed description of your feedback or feature idea for our Figma design files."
+
+  - type: input
+    id: figma-file-name
+    attributes:
+      label: Figma File Name
+      description: "Specify the name of the Figma file related to your feedback."
+      placeholder: "Enter the Figma file name here"
+    validations:
+      required: true
+
   - type: textarea
     id: problem-description
     attributes:
-      label: Problem Description
-      description: "A clear and concise description of what the problem is. Ex. I'm always frustrated when..."
-      placeholder: "Explain the problem you are facing..."
+      label: Issue or Enhancement Detail
+      description: "Describe the issue or suggest an enhancement for the Figma file. Be as specific as possible."
+      placeholder: "I encounter an issue when... / I suggest enhancing..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "Describe your request"
+
   - type: textarea
     id: request-description
     attributes:
-      label: Request Description
-      description: "A clear and concise description of what you want."
-      placeholder: "Detail your request here..."
+      label: Desired Outcome
+      description: "Explain what you would like to achieve with your request."
+      placeholder: "Ideally, the Figma file would allow me to..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "Describe alternatives you've considered"
+
   - type: textarea
     id: alternatives-description
     attributes:
-      label: Alternatives Considered
-      description: "A clear and concise description of any alternative solutions or features you've considered."
-      placeholder: "Describe any alternative solutions or features..."
+      label: Alternative Solutions
+      description: "Have you considered any other solutions? Please share them here."
+      placeholder: "Other solutions I've considered are..."
     validations:
       required: false
-  - type: markdown
+
+  - type: textarea
+    id: visual-references
     attributes:
-      value: "Additional context"
+      label: Visual References or Mockups
+      description: "Attach any visual references or mockups that support your feedback."
+      placeholder: "Link to or describe any visual references here..."
+    validations:
+      required: false
+
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional Context
-      description: "Add any other context or screenshots about the feature request here."
-      placeholder: "Add any additional context or screenshots here..."
+      label: Additional Information
+      description: "Provide any extra information that could help us understand your feedback better."
+      placeholder: "Any additional details, context, or screenshots..."
     validations:
       required: false
