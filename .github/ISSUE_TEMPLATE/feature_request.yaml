@@ -1,20 +1,20 @@
-name: Feature Request
-description: Propose a new feature or enhancement for this project.
-title: "Feature Request: [Please summarize]"
-labels: ["type: feature request"]
+name: Feature Request for Project Minimalist
+description: Propose a new feature or improvement for the Project Minimalist osu! skin.
+title: "Feature Request: [Brief Summary]"
+labels: ["type: enhancement", "status: under consideration"]
 assignees:
   - PopCat19
 
 body:
   - type: markdown
     attributes:
-      value: "## 🚀 Feature Proposal\nPlease fill out the following sections to help us understand your proposal better."
+      value: "## 🎨 Feature Proposal for Project Minimalist\nThank you for contributing to the minimalist design of Project Minimalist! Please provide detailed information about your feature proposal below."
 
   - type: input
-    id: title
+    id: feature-title
     attributes:
       label: Feature Title
-      description: "Provide a short and descriptive title for the feature."
+      description: "Enter a concise title that encapsulates the essence of your feature."
       placeholder: "Title of the proposed feature"
     validations:
       required: true
@@ -23,8 +23,8 @@ body:
     id: problem-description
     attributes:
       label: Problem Description
-      description: "Describe the problem that this feature would address. Be specific."
-      placeholder: "I'm always frustrated when..."
+      description: "What issue does your feature address? Describe the problem that necessitates this feature."
+      placeholder: "I find it challenging when..."
     validations:
       required: true
 
@@ -32,29 +32,39 @@ body:
     id: solution-description
     attributes:
       label: Proposed Solution
-      description: "Explain the solution you envision, and how it would benefit users."
+      description: "Detail the solution you envision. How does it enhance the minimalist experience?"
       placeholder: "The ideal solution would..."
     validations:
       required: true
 
   - type: textarea
+    id: design-details
+    attributes:
+      label: Design Details
+      description: "Describe any design elements or themes that should be considered for your feature."
+      placeholder: "Include color palettes, typography, layout changes, etc..."
+    validations:
+      required: false
+
+  - type: textarea
     id: alternatives-description
     attributes:
       label: Alternatives Considered
-      description: "Discuss any alternative solutions or features you've considered."
-      placeholder: "Alternative solutions include..."
+      description: "Have you considered any alternative solutions? Please share them here."
+      placeholder: "Other potential solutions include..."
     validations:
       required: false
 
   - type: checkboxes
-    id: impact
+    id: skin-impact
     attributes:
-      label: Impact of Feature
-      description: "Select the areas that would be impacted by this feature."
+      label: Impact on Skin
+      description: "Which aspects of the skin do you believe your feature will improve?"
       options:
-        - label: User Experience
+        - label: Aesthetics
+        - label: Usability
+        - label: Customization
         - label: Performance
-        - label: Security
         - label: Other (Please specify in 'Additional Context')
     validations:
       required: true
@@ -63,20 +73,19 @@ body:
     id: additional-context
     attributes:
       label: Additional Context
-      description: "Provide any additional information or screenshots that might be helpful."
-      placeholder: "Additional details, context, or screenshots..."
+      description: "Provide any additional context, such as screenshots or mockups, that could help illustrate your feature."
+      placeholder: "Attach any supplementary materials here..."
     validations:
       required: false
 
   - type: dropdown
-    id: urgency
+    id: urgency-level
     attributes:
-      label: Urgency
-      description: "How urgent is this feature request?"
+      label: Urgency Level
+      description: "How urgent is this feature request for Project Minimalist?"
       options:
-        - "High - It's a blocker"
-        - "Medium - It's important but not urgent"
-        - "Low - It would be nice to have"
+        - "Immediate - It's a significant enhancement"
+        - "Soon - It's important for the next update"
+        - "Eventually - It's a nice-to-have feature"
     validations:
       required: true
-      
