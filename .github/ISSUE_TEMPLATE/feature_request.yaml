@@ -56,10 +56,10 @@ body:
       required: false
 
   - type: checkboxes
-    id: skin-impact
+    id: impact
     attributes:
-      label: Impact on Skin
-      description: "Which aspects of the skin do you believe your feature will improve?"
+      label: Impact on the project
+      description: "Which aspects of the project do you believe your feature will improve?"
       options:
         - label: Aesthetics
         - label: Usability
