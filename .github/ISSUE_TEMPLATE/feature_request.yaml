@@ -1,7 +1,7 @@
 name: Feature Request for Project Minimalist
 description: Propose a new feature or improvement for the Project Minimalist osu! skin.
 title: "Feature Request: [Brief Summary]"
-labels: ["feature request", "enhancement", "under consideration"]
+labels: ["feature request", "enhancement"]
 assignees:
   - PopCat19
 
