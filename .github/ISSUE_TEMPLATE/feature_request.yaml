@@ -8,7 +8,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "## 🎨 Feature Proposal for Project Minimalist\nThank you for contributing to the minimalist design of Project Minimalist! Please provide detailed information about your feature proposal below."
+      value: "## Feature Proposal for Project Minimalist\nThank you for contributing to the minimalist design of Project Minimalist! Please provide detailed information about your feature proposal below."
 
   - type: input
     id: feature-title
