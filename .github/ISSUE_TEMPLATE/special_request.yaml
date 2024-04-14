@@ -1,39 +1,56 @@
-name: Special request
-description: Request for your skin needs. (e.g. custom colors)
-title: "[Special]: "
-labels: ["Special Request"]
+name: Custom Skin Request
+description: Submit a request for customizations to your Project Minimalist skin.
+title: "[Customization]: " # Please provide a concise title for your request
+labels: ["special: customization"]
 assignees:
   - PopCat19
+
 body:
-  - type: input
-    id: reason
+  - type: markdown
     attributes:
-      label: Reason
-      description: "Is your request related to a problem? Please describe."
-      placeholder: "I made this request because..."
+      value: "## Customization Request\nPlease provide detailed information about your special request for customizing your Project Minimalist skin."
+
+  - type: input
+    id: customization-need
+    attributes:
+      label: Customization Need
+      description: "What specific customization are you looking for? Please explain the reason."
+      placeholder: "I need this customization because..."
     validations:
       required: true
+
   - type: input
-    id: describe
+    id: desired-features
     attributes:
-      label: Describe
-      description: "Describe what you want in your skin."
-      placeholder: "I want [...] because [...]"
+      label: Desired Features
+      description: "Describe the features or changes you want to see in your skin."
+      placeholder: "I would like to have..."
     validations:
       required: true
+
   - type: input
-    id: alternatives
+    id: considered-alternatives
     attributes:
-      label: Alternatives
-      description: "Describe alternatives you've considered for the request."
-      placeholder: "You can also consider [...] because [...]"
+      label: Considered Alternatives
+      description: "Have you thought about any alternative customizations? If so, describe them."
+      placeholder: "An alternative could be..."
     validations:
       required: false
+
   - type: textarea
-    id: additional-context
+    id: visual-preferences
     attributes:
-      label: Additional context
-      description: "Add any other context or screenshots about the feature request here."
-      placeholder: "Add any other context or screenshots about the feature request here."
+      label: Visual Preferences
+      description: "Describe your visual preferences or themes that should be incorporated into the customization."
+      placeholder: "I prefer a color scheme of..., with elements like..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional Details
+      description: "Provide any other details or context that might help us fulfill your request. Attach screenshots or links to visual references if available."
+      placeholder: "Additional details, context, or visual references..."
     validations:
       required: false
