@@ -1,0 +1,51 @@
+name: Figma request
+description: Issues or feature ideas related to Figma project files.
+title: "[Figma]: " # You can set a default title prefix here
+labels: ["Figma Request"]
+assignees:
+  - PopCat19
+body:
+  - type: markdown
+    attributes:
+      value: "Is your request related to a problem? Please describe."
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Problem Description
+      description: "A clear and concise description of what the problem is. Ex. I'm always frustrated when..."
+      placeholder: "Explain the problem you are facing..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Describe your request"
+  - type: textarea
+    id: request-description
+    attributes:
+      label: Request Description
+      description: "A clear and concise description of what you want."
+      placeholder: "Detail your request here..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Describe alternatives you've considered"
+  - type: textarea
+    id: alternatives-description
+    attributes:
+      label: Alternatives Considered
+      description: "A clear and concise description of any alternative solutions or features you've considered."
+      placeholder: "Describe any alternative solutions or features..."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "Additional context"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: "Add any other context or screenshots about the feature request here."
+      placeholder: "Add any additional context or screenshots here..."
+    validations:
+      required: false
