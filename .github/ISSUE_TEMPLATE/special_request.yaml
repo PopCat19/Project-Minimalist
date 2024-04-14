@@ -10,7 +10,7 @@ body:
     attributes:
       value: "## Customization Request\nPlease provide detailed information about your special request for customizing your Project Minimalist skin."
 
-  - type: input
+  - type: textarea
     id: customization-need
     attributes:
       label: Customization Need
@@ -19,7 +19,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: desired-features
     attributes:
       label: Desired Features
@@ -28,7 +28,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: considered-alternatives
     attributes:
       label: Considered Alternatives
