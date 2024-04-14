@@ -1,7 +1,7 @@
 name: Custom Skin Request
 description: Submit a request for customizations to your Project Minimalist skin.
 title: "[Customization]: " # Please provide a concise title for your request
-labels: ["special: customization"]
+labels: ["customization"]
 assignees:
   - PopCat19
 
