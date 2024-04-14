@@ -10,7 +10,7 @@ body:
     attributes:
       value: "## Figma Design Feedback\nPlease provide a detailed description of your feedback or feature idea for our Figma design files."
 
-  - type: textarea
+  - type: input
     id: figma-file-name
     attributes:
       label: Figma File Name
