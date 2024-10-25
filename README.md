@@ -22,7 +22,7 @@ The project files are slowly being released with couple of modifications to impr
 - [x] osu! stable (full)
 - [x] osu! lazer (partial)
 - [x] McOsu (partial)
-- [x] osu!droid (partial)
+- [x] osu!droid (full)
 - [x] opsu! (partial)
 
 ## Installation
