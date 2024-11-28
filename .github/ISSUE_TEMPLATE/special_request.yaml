@@ -51,7 +51,7 @@ body:
   - type: textarea
     id: visual-preferences
     attributes:
-      label: Visual Preferences (optional)
+      label: Visual Preferences
       description: |
         What themes or styles should be incorporated into the skin?
       placeholder: |
@@ -61,7 +61,7 @@ body:
   - type: textarea
     id: additional-details
     attributes:
-      label: Additional Details (optional)
+      label: Additional Details
       description: |
         Provide any other details or context. Attach screenshots or links to visual references if necessary.
       placeholder: |
