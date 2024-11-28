@@ -8,7 +8,10 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "## Figma Design Feedback\nPlease provide a detailed description of your feedback or feature idea for our Figma design files."
+      value: |
+        ## Figma Design Feedback
+        ---
+        Please provide a detailed description of your feedback or feature idea for our Figma design files.
 
   - type: input
     id: figma-file-name
@@ -23,8 +26,11 @@ body:
     id: problem-description
     attributes:
       label: Issue or Enhancement Detail
-      description: "Describe the issue or suggest an enhancement for the Figma file. Be as specific as possible."
-      placeholder: "I encounter an issue when... / I suggest enhancing..."
+      description: |
+        Describe the issue or suggest an enhancement for the Figma file. Be as specific as possible.
+      placeholder: |
+        Example:
+          I encounter an issue when '...' / I suggest enhancing '...'
     validations:
       required: true
 
@@ -32,34 +38,40 @@ body:
     id: request-description
     attributes:
       label: Desired Outcome
-      description: "Explain what you would like to achieve with your request."
-      placeholder: "Ideally, the Figma file would allow me to..."
+      description: |
+        Explain what you would like to achieve with your request.
+      placeholder: |
+        Example:
+          Ideally, the Figma file would allow me to '...'
     validations:
       required: true
 
   - type: textarea
     id: alternatives-description
     attributes:
-      label: Alternative Solutions
-      description: "Have you considered any other solutions? Please share them here."
-      placeholder: "Other solutions I've considered are..."
+      label: Alternative Solutions (optional)
+      description: |
+        Have you considered any other solutions? Please share them here.
+      placeholder: |
+        Example:
+          Other solutions I've considered are '...'
     validations:
-      required: false
+      required: true
 
-  - type: textarea
+  - type: media
     id: visual-references
     attributes:
-      label: Visual References or Mockups
-      description: "Attach any visual references or mockups that support your feedback."
-      placeholder: "Link to or describe any visual references here..."
-    validations:
-      required: false
+      label: Visual References or Mockups (optional)
+      description: |
+        Attach any visual references or mockups that support your feedback.
+      placeholder: |
+        Upload any references here.
 
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional Information
-      description: "Provide any extra information that could help us understand your feedback better."
-      placeholder: "Any additional details, context, or screenshots..."
-    validations:
-      required: false
+      label: Additional Information (optional)
+      description: |
+        Provide any other details or context.
+      placeholder: |
+        Provide any relevant details, references, or attachments.
