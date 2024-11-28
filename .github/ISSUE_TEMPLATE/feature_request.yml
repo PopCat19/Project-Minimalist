@@ -30,7 +30,8 @@ body:
       description: |
         Specify the version of the skin for which the request is intended.
       placeholder: |
-        Example: '1.2.0'
+        Example: 
+          '1.2.0'
     validations:
       required: true
 
@@ -41,30 +42,32 @@ body:
       description: |
         Explain the benefits your feature provides.
       placeholder: |
-        Example:
-        This feature will enhance '...' by modifying '...'
+        Example: 
+          This feature will enhance '...' by modifying '...'
     validations:
       required: true
 
   - type: textarea
     id: implementation
     attributes:
-      label: Implementation (optional)
+      label: Implementation
       description: |
         Outline how the feature should be implemented.
       placeholder: |
-        Example:
-        To implement '...', we should add or remove '...' from '...' elements in the skin.
+        Example: 
+          To implement '...', we should add or remove '...' from '...' elements in the skin.
+    validations:
+      required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives
+      label: Alternative Implementation
       description: |
         Suggest alternative implementations for redundancy.
       placeholder: |
-        Example:
-        An alternative for '...' could be '...'
+        Example: 
+          An alternative implementation for '...' could be '...'
     validations:
       required: true
 
