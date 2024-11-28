@@ -1,0 +1,93 @@
+name: Feature Request for Project Minimalist
+description: Submit a proposal for a new feature or enhancement for the Project Minimalist skin.
+title: "Feature Request: "
+labels: ["feature request", "enhancement"]
+assignees:
+  - PopCat19
+
+body:
+  - type: markdown
+    attributes:
+      value: "## Feature Request for Project Minimalist\nPlease provide detailed information about your feature proposal below."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: "Ensure all tasks are completed before submitting your request."
+      options:
+        - label: I've verified that there is [no open or closed issue](https://github.com/PopCat19/Project-Minimalist/issues?q=label%3A%22feature+request%22+) related to this request.
+          required: true
+        - label: This request addresses only one feature (one feature per request/issue).
+          required: true
+        - label: The title accurately reflects the proposed feature.
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Skin Version
+      description: |
+        Specify the version of the skin for which the request is intended.
+      placeholder: |
+        Example: '1.2.0'
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature Description
+      description: |
+        Explain the benefits your feature provides.
+      placeholder: |
+        Example:
+        This feature will enhance '...' by modifying '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation (optional)
+      description: |
+        Outline how the feature should be implemented.
+      placeholder: |
+        Example:
+        To implement '...', we should add or remove '...' from '...' elements in the skin.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: |
+        Suggest alternative implementations for redundancy.
+      placeholder: |
+        Example:
+        An alternative for '...' could be '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: |
+        Include any additional context, such as screenshots or mockups, that could help clarify your feature.
+      placeholder: |
+        Provide any relevant details, references, or attachments.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level
+      description: |
+        How critical is this feature?
+      options:
+        - "High"
+        - "Normal"
+        - "Low"
+    validations:
+      required: true
