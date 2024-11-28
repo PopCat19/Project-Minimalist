@@ -1,6 +1,6 @@
 name: Custom Skin Request
 description: Submit a request for a customized skin.
-title: "[Customization]: " # Please provide a concise title for your request
+title: "Customization: " # Please provide a concise title for your request
 labels: ["customization"]
 assignees:
   - PopCat19
