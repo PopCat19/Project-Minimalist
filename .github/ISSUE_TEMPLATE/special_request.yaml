@@ -10,7 +10,6 @@ body:
     attributes:
       value: |
         ## Customization Request
-        ---
         Please provide detailed information about your custom skin request.
 
   - type: textarea
