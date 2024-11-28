@@ -10,7 +10,6 @@ body:
     attributes:
       value: |
         ## Figma Design Feedback
-        ---
         Please provide a detailed description of your feedback or feature idea for our Figma design files.
 
   - type: input
