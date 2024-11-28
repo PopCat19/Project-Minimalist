@@ -10,7 +10,6 @@ body:
     attributes:
       value: |
         ## Feature Request for Project Minimalist
-        ---
         Please provide detailed information about your feature proposal below.
 
   - type: checkboxes
