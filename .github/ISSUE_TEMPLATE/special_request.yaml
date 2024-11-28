@@ -1,5 +1,5 @@
 name: Custom Skin Request
-description: Submit a request for customizations to your Project Minimalist skin.
+description: Submit a request for a customized skin.
 title: "[Customization]: " # Please provide a concise title for your request
 labels: ["customization"]
 assignees:
@@ -8,40 +8,40 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "## Customization Request\nPlease provide detailed information about your special request for customizing your Project Minimalist skin."
+      value: "## Customization Request:\nProvide detailed information about your custom request."
 
   - type: textarea
-    id: customization-need
+    id: customization
     attributes:
-      label: Customization Need
-      description: "What specific customization are you looking for? Please explain the reason."
-      placeholder: "I need this customization because..."
+      label: Customization
+      description: "What kind of customization are you looking for?"
+      placeholder: "I need <this> type of customization because..."
     validations:
       required: true
 
   - type: textarea
-    id: desired-features
+    id: features
     attributes:
-      label: Desired Features
-      description: "Describe the features or changes you want to see in your skin."
-      placeholder: "I would like to have..."
+      label: Features
+      description: "What visual features or changes should be incorporated into the skin?"
+      placeholder: "I'd like to have..."
     validations:
       required: true
 
   - type: textarea
-    id: considered-alternatives
+    id: alternatives
     attributes:
-      label: Considered Alternatives
-      description: "Have you thought about any alternative customizations? If so, describe them."
+      label: Alternatives
+      description: "Provide alternatives for redundancy."
       placeholder: "An alternative could be..."
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: visual-preferences
     attributes:
-      label: Visual Preferences
-      description: "Describe your visual preferences or themes that should be incorporated into the customization."
+      label: Visual Preferences (optional)
+      description: "What themes should be incorporated into the skin?"
       placeholder: "I prefer a color scheme of..., with elements like..."
     validations:
       required: false
@@ -49,8 +49,8 @@ body:
   - type: textarea
     id: additional-details
     attributes:
-      label: Additional Details
-      description: "Provide any other details or context that might help us fulfill your request. Attach screenshots or links to visual references if available."
-      placeholder: "Additional details, context, or visual references..."
+      label: Additional Details (optional)
+      description: "Provide any other details or context. Attach screenshots or links to visual references if necessary."
+      placeholder: "..."
     validations:
       required: false
