@@ -8,14 +8,19 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "## Customization Request:\nProvide detailed information about your custom request."
+      value: |
+        ## Customization Request
+        Please provide detailed information about your custom skin request.
 
   - type: textarea
     id: customization
     attributes:
       label: Customization
-      description: "What kind of customization are you looking for?"
-      placeholder: "I need <this> type of customization because..."
+      description: |
+        What kind of customization are you looking for?
+      placeholder: |
+        Example:
+          I need '...' type of customization because '...'
     validations:
       required: true
 
@@ -23,8 +28,11 @@ body:
     id: features
     attributes:
       label: Features
-      description: "What visual features or changes should be incorporated into the skin?"
-      placeholder: "I'd like to have..."
+      description: |
+        What visual features or changes should be incorporated into the skin?
+      placeholder: |
+        Example:
+          I'd like to have '...'
     validations:
       required: true
 
@@ -32,8 +40,11 @@ body:
     id: alternatives
     attributes:
       label: Alternatives
-      description: "Provide alternatives for redundancy."
-      placeholder: "An alternative could be..."
+      description: |
+        Provide alternatives for redundancy.
+      placeholder: |
+        Example:
+          An alternative could be '...'
     validations:
       required: true
 
@@ -41,16 +52,17 @@ body:
     id: visual-preferences
     attributes:
       label: Visual Preferences (optional)
-      description: "What themes should be incorporated into the skin?"
-      placeholder: "I prefer a color scheme of..., with elements like..."
-    validations:
-      required: false
+      description: |
+        What themes or styles should be incorporated into the skin?
+      placeholder: |
+        Example:
+          I prefer a color scheme of '...' with elements like '...'
 
   - type: textarea
     id: additional-details
     attributes:
       label: Additional Details (optional)
-      description: "Provide any other details or context. Attach screenshots or links to visual references if necessary."
-      placeholder: "..."
-    validations:
-      required: false
+      description: |
+        Provide any other details or context. Attach screenshots or links to visual references if necessary.
+      placeholder: |
+        Provide any relevant details, references, or attachments.
