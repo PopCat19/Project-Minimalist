@@ -8,13 +8,17 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "## Feature Request for Project Minimalist\nPlease provide detailed information about your feature proposal below."
+      value: |
+        ## Feature Request for Project Minimalist
+        ---
+        Please provide detailed information about your feature proposal below."
 
   - type: checkboxes
     id: checklist
     attributes:
       label: Checklist
-      description: "Ensure all tasks are completed before submitting your request."
+      description: |
+        Ensure all tasks are completed before submitting your request.
       options:
         - label: I've verified that there is [no open or closed issue](https://github.com/PopCat19/Project-Minimalist/issues?q=label%3A%22feature+request%22+) related to this request.
           required: true
@@ -30,8 +34,7 @@ body:
       description: |
         Specify the version of the skin for which the request is intended.
       placeholder: |
-        Example: 
-          '1.2.0'
+        Example: '1.2.0'
     validations:
       required: true
 
@@ -89,8 +92,7 @@ body:
       description: |
         How critical is this feature?
       options:
-        - "High"
         - "Normal"
-        - "Low"
+        - "High"
     validations:
       required: true
