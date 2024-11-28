@@ -56,9 +56,9 @@ body:
         Example:
           Other solutions I've considered are '...'
     validations:
-      required: true
+      required: false
 
-  - type: media
+  - type: textarea
     id: visual-references
     attributes:
       label: Visual References or Mockups (optional)
@@ -66,12 +66,16 @@ body:
         Attach any visual references or mockups that support your feedback.
       placeholder: |
         Upload any references here.
+    validations:
+      required: false
 
   - type: textarea
     id: additional-context
     attributes:
       label: Additional Information (optional)
       description: |
-        Provide any other details or context.
+        Provide any other details or context that could help us understand your feedback better.
       placeholder: |
         Provide any relevant details, references, or attachments.
+    validations:
+      required: false
