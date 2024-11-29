@@ -1,0 +1,97 @@
+name: Issue Report for Project Minimalist
+description: Submit a proposal for a new issue or enhancement for the Project Minimalist skin.
+title: "Issue: "
+labels: ["issue", "enhancement"]
+assignees:
+  - PopCat19
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Issue Report for Project Minimalist
+        Please provide detailed information about your issue below.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: |
+        Ensure all tasks are completed before submitting your report.
+      options:
+        - label: I've verified that there is [no open or closed issue](https://github.com/PopCat19/Project-Minimalist/issues?q=label%3A%22issue+report%22+) related to this report.
+          required: true
+        - label: This report addresses only one issue (one issue per report/issue).
+          required: true
+        - label: The title accurately reflects the proposed issue.
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Skin Version
+      description: |
+        Specify the version of the skin for which the report is intended.
+      placeholder: |
+        Example: '1.2.0'
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue Description
+      description: |
+        Explain the issue.
+      placeholder: |
+        Example: 
+          '...' is an issue because '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: |
+        Suggest how the issue should be fixed.
+      placeholder: |
+        Example: 
+          To fix '...', we should add, remove, or modify '...' from '...' elements in the skin.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Suggestion
+      description: |
+        Suggest alternative suggestions for redundancy.
+      placeholder: |
+        Example: 
+          An alternative suggestion for fixing '...' could be '...'
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: |
+        Include any additional context, such as screenshots or mockups, that could help clarify your issue.
+      placeholder: |
+        Provide any relevant details, references, or attachments.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level
+      description: |
+        How critical is this issue?
+      options:
+        - "Normal"
+        - "High"
+    validations:
+      required: true
