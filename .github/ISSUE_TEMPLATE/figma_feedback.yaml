@@ -1,7 +1,7 @@
-name: Figma Design Feedback
-description: Submit feedback or feature ideas for Project Minimalist's Figma design files.
+name: Figma Feedback
+description: Submit feedback or feature ideas for Project Minimalist's Figma project files.
 title: "Figma Feedback: " # Add a brief title after the colon
-labels: ["feedback", "review pending"]
+labels: ["feedback", "enhancement"]
 assignees:
   - PopCat19
 
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Figma Design Feedback
+        ## Figma Feedback
         Please provide a detailed description of your feedback or feature idea for our Figma design files.
 
   - type: input
