@@ -1,3 +1,5 @@
+## Check Releases to download the skin [here!](https://github.com/PopCat19/Project-Minimalist/releases)
+
 ![Banner](https://github.com/PopCat19/Project-Minimalist/assets/104473808/5403041f-d4bd-4cc5-b50d-6962b0fc7dbb)
 
 #### What is Project Minimalist?
